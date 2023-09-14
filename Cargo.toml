@@ -1,21 +1,21 @@
 [package]
-name = "serde_regex"
+name = "serde_fancy_regex"
 description = """
-    A serde wrapper that (de)serializes regex as strings
+    A fork of serde_regex that (de)serializes fancy_regex as strings
 """
 license = "MIT/Apache-2.0"
 readme = "README.md"
-keywords = ["serde", "regex"]
+keywords = ["serde", "regex", "fancy_regex"]
 categories = ["encoding"]
-homepage = "https://github.com/tailhook/serde-regex"
-documentation = "https://docs.rs/serde_regex"
+homepage = "https://github.com/ZJaume/serde-fancy-regex"
+documentation = "https://docs.rs/serde_fancy_regex"
 version = "1.1.0"
-authors = ["paul@colomiets.name"]
+authors = ["jzaragoza@prompsit.com"]
 edition = "2018"
 
 [dependencies]
 serde = "1.0.0"
-regex = "1.5.5"
+fancy-regex = "0.11"
 
 [dev-dependencies]
 serde_derive = "1.0.0"

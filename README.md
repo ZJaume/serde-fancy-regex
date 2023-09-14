@@ -1,9 +1,11 @@
-Serde Regex
+Serde FancyRegex
 ============
 
+A __fork__ from Serde Regex for `fancy_regex` library.
+
 [Documentation](https://docs.rs/serde_regex) |
-[Github](https://github.com/tailhook/serde-regex) |
-[Crate](https://crates.io/crates/serde_regex)
+[Github](https://github.com/zjaume/serde-fancy-regex) |
+[Crate](https://crates.io/crates/serde_fancy_regex)
 
 A serde wrapper, that can be used to serialize regular expressions as strings.
 It's often useful to read regexes from configuration file.
